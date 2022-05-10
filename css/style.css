@@ -129,6 +129,13 @@ button {
   display: block;
 }
 
+.x-hover:hover::after {
+  content: "X";
+}
+.o-hover:hover::after {
+  content: "O";
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
